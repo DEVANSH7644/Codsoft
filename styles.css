@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width:100vw;
+    height: 100vh;
+    background-color: rgb(248, 211, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+
+    width:550px;
+    height: 700px;
+    background-color: black;
+    border: 3px solid white;
+    box-shadow: 2px 2px 30px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    padding-left:10.5px;
+    gap: 25px;
+
+
+
+
+}
+.display{
+    width: 480px;
+    height: 100px;
+    background-color: grey;
+    border: 2px solid white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(46, 46, 46);
+    border: 2x solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    transition: all 0.3s ease;
+    
+
+}.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    
+    column-gap: 1rem;
+    padding-left: 1rem;
+
+}
+.Column1,.Column2,.Column3,.Column4{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    row-gap: 1rem;
+
+
+
+}
+.btn16, .btn17, .btn18, .btn19, .btn20{
+    background-color:orange;
+    color: white;
+}
+.btn15{
+    background-color:deepskyblue; 
+    color: white;
+}
+.btn11{
+    background-color: #e53935; 
+    color: white;
+}
+.button:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    transform: scale(1.05);
+}
+
+
