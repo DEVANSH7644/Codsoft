@@ -35,15 +35,22 @@ body{
 
 
 }
-.display{
+.display {
     width: 480px;
     height: 100px;
     background-color: grey;
     border: 2px solid white;
     margin: 20px;
     border-radius: 10px;
-    text-align: right; 
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
 
 .button{
     width: 80px;
